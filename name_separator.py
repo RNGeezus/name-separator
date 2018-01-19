@@ -18,11 +18,6 @@ text = pyperclip.paste()
 #Extract the email/phone from this text
 extractedName = nameRegex.findall(text)
 
-#allPhoneNumbers = []
-#for phoneNumber in extractedPhone:
-#    allPhoneNumbers.append(phoneNumber[0])
-#
-
 # TODO: Copy separated names to clipboard
 # Text format: FirstName,LastName,\n
 results = ''
